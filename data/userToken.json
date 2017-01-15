@@ -1,0 +1,5 @@
+{
+    "token":"usertoken",
+    "permissions": ["viewDashBoard", "permission2"],
+    "accessCode":"access"
+}

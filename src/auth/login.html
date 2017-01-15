@@ -1,0 +1,24 @@
+<div class="login jumbotron center-block">
+  <h1>Please Enter name and access code (access code: access)</h1>
+  <form role="form" (submit)="login($event, name.value, accessCode.value)">
+
+  <table class='front-table'>
+    <tr>
+      <th>Enter your name</th>
+      <td><input type="text" #name class="form-control" id="name" placeholder="Your Name"></td>
+    </tr>
+
+    <tr>
+      <th>Access Code</th>
+      <td><input type="accessCode" #accessCode class="form-control" id="accessCode" placeholder="Password"></td>
+    </tr>
+
+    <tr>
+      <th></th>
+      <td><button type="submit" class="btn btn-default">Enter</button></td>
+    </tr>
+  </table>
+
+  
+</form>
+</div>
